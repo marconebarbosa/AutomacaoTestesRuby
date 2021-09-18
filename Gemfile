@@ -1,11 +1,16 @@
 source "http://rubygems.org"
 
 #test
-gem 'capybara'
 gem 'cucumber'
-gem 'selenium-webdriver'
 gem 'rspec'
+
+#webTest
+gem 'capybara'
+gem 'selenium-webdriver'
 
 #debug
 gem 'ruby-debug-ide' 
 gem 'debase'
+
+#report
+gem 'prawn'

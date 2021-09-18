@@ -1,0 +1,12 @@
+require_relative 'ReportBase'
+
+relatorio = ReportBase.new
+relatorio.insereCabecalho
+relatorio.insereDadosSistemaOuAmbiente
+relatorio.insereDadosFuncionalidadeECenario
+relatorio.insereDadosPassos
+relatorio.insereDadosPassos
+relatorio.insereDadosPassos
+relatorio.insereStatus
+relatorio.inserelogsDaFalha
+relatorio.geraArquivoPDF
