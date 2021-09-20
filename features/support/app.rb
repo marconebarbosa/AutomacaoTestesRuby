@@ -9,8 +9,5 @@ class App
   def rastreamentoCorreiosPage
     RastreamentoCorreiosPage.new
   end
-
-  def report
-    ReportBase.new
-  end
+  
 end

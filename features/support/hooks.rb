@@ -1,16 +1,19 @@
 # Antes de cada teste
 require_relative '../../core/report/ReportBase.rb'
 
+
 Before do
   @app = App.new #instancia as classes de app
 
-  @app.report.insereCabecalho
-  @app.report.insereDadosSistemaOuAmbiente
-  @app.report.insereDadosFuncionalidadeECenario
+  @report = ReportBase.new
+  @report.insereCabecalho
+  @report.insereDadosSistemaOuAmbiente
+  @report.insereDadosFuncionalidadeECenario
 
 end
 
 After do
-  @app.report.geraArquivoPDF
-  @app = nil
+  @report.geraArquivoPDF
+  #@report.limpaVariavel
 end
+
