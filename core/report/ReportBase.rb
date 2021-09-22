@@ -27,11 +27,11 @@ end
     @pdf.text "Versão:"
   end
 
-  def insereDadosFuncionalidadeECenario
+  def insereNomeFuncionalidadeECenario(nomeFuncionalidade,nomeCenario)
     @pdf.move_down 20
-    @pdf.text "Funcionalidade:"
+    @pdf.text nomeFuncionalidade
     @pdf.move_down 10
-    @pdf.text "Cenário: "
+    @pdf.text nomeCenario
     @pdf.text "Criticidade:"
   end
 
