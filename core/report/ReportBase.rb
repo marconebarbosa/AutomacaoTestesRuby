@@ -60,7 +60,7 @@ end
   end
 
   def geraArquivoPDF
-    @pdf.render_file('C:\PAN\githubMarcone\AutomacaoTestesRuby\logs\reports\ ' + Time.now.strftime("%d_%m_%Y%H_%M_%S") + '.pdf')
+    @pdf.render_file('.\logs\reports\ ' + Time.now.strftime("%d_%m_%Y%H_%M_%S") + '.pdf')
   end
 
   def limpeza

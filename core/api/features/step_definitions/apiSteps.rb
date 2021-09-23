@@ -1,5 +1,5 @@
 Dado('que possuo o endpoint {string}') do |urlFeature|
- @url =  urlFeature
+ @url = urlFeature
 end
 
 Quando('faco requisição get') do
@@ -8,5 +8,4 @@ end
 
 Então('o codigo de resposta devera ser {string}') do |string|
 expect(@response.code).to eq(200)
-puts @response.code
 end
