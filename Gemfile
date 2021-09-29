@@ -9,11 +9,11 @@ gem 'capybara'
 gem 'selenium-webdriver'
 
 #apiTest
-gem 'httparty' #realizar requisições de web services e examinar as saídas
+gem 'httparty' #realizar requisições http e examinar as saídas
 
 #debug
 gem 'ruby-debug-ide' 
 gem 'debase'
 
 #report
-gem 'prawn'
+gem 'prawn' #gerar pdf

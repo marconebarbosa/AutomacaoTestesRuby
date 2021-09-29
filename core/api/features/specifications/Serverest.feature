@@ -6,7 +6,7 @@ Cenario: Obter quantidade de usuários cadastrados
 
 Dado que possuo o endpoint "/usuarios" 
 Quando faco requisição get
-Então é retornado a quantidade de usuários
+Então é retornado o status code "200"
 
 
 #Cenario: validar pesquisa por id 
