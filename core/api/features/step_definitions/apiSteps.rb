@@ -7,5 +7,5 @@ Quando('faco requisição get') do
 end
 
 Então('o codigo de resposta devera ser {string}') do |string|
-expect(@response.code).to eq(200)
+    expect(@response.code).to eq(200)
 end
